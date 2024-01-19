@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Jeremie Joseph</h1>
 <h3 align="center">Driven Full-Stack Developer Student | Embracing Code and Sunshine from Miami to the Golden State</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=aimforexcellenceinall" alt="aimforexcellenceinall" /></a> </p>
-
 - 🔭 I’m currently working on [Rock Church Safety App](https://github.com/aimforexcellenceinall/rock-security-team)
 
 - 🌱 I’m currently learning **Ruby on Rails, PostgreSQL, Ruby, React.js, Jest, JavaScript, HTML, CSS, GitHub, Git**
@@ -22,5 +20,3 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=aimforexcellenceinall&show_icons=true&locale=en&layout=compact" alt="aimforexcellenceinall" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=aimforexcellenceinall&show_icons=true&locale=en" alt="aimforexcellenceinall" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aimforexcellenceinall&" alt="aimforexcellenceinall" /></p>
