@@ -10,12 +10,28 @@ import React from 'react'
 
 const AboutMe = () => {
   const technologies = {
-    frontend: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Reactstrap', 'Bootstrap'],
-    backend: ['Ruby', 'Ruby on Rails'],
-    databases: ['PostgreSQL'],
-    tools: ['Git', 'GitHub', 'Yarn', 'NPM', 'Jest', 'RSpec', 'Firebase', 'PGAdmin', 'Postman', 'Visily', 'Canva', 'Slack', 'Trello'],
-    platforms: ['Salesforce (in progress)'],
+    frontend: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React",
+      "Reactstrap",
+      "Bootstrap",
+      "TailwindCSS",
+    ],
+    backend: ["Ruby", "Ruby on Rails"],
+    databases: ["PostgreSQL", "Firebase", "PGAdmin"],
+    versionControl: ["Git", "GitHub"],
+    packageManagers: ["Yarn", "NPM"],
+    testing: ["Jest", "RSpec"],
+    api: ["Postman"],
+    design: ["Visily", "Canva"],
+    projectManagement: ["Slack", "Trello"],
+    deployment: ["Netlify"],
+    services: ["EmailJS"],
+    platforms: ["Salesforce (in progress)"],
   }
+}
 
   const introduction = 'Pursuing Salesforce Development, eager for transformative collaborations and new frontiers'
 
