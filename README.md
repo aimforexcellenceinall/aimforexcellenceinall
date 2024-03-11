@@ -2,12 +2,13 @@
     <img src="https://readme-typing-svg.herokuapp.com/?lines=Hi,+I'm+Jeremie!+👋🏽;Nice+to+meet+you!+🙂&center=true&size=30&color=29d2a">
 </h1>
 
-# About Me
+<h1 align="center">A software engineer</h1>
+<h3 align="center">react | rails | learning Salesforce</h3>
 
 ```
 import React from 'react'
 
-const SoftwareEngineer = () => {
+const AboutMe = () => {
   const technologies = {
     frontend: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Reactstrap', 'Bootstrap'],
     backend: ['Ruby', 'Ruby on Rails'],
@@ -46,7 +47,7 @@ const SoftwareEngineer = () => {
   )
 }
 
-export default SoftwareEngineer
+export default AboutMe
 ```
 
 <h3 align="left">Let's Connect:</h3>
