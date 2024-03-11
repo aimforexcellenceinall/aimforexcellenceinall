@@ -1,44 +1,57 @@
-```
-import React from 'react';
+<h1 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=Hi,+I'm+Jeremie!+👋🏽;Nice+to+meet+you!+🙂&center=true&size=30&color=29d2a">
+</h1>
 
-const AboutMe = () => {
+# About Me
+
+```
+import React from 'react'
+
+const SoftwareEngineer = () => {
   const technologies = {
     frontend: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Reactstrap', 'Bootstrap'],
     backend: ['Ruby', 'Ruby on Rails'],
     databases: ['PostgreSQL'],
     tools: ['Git', 'GitHub', 'Yarn', 'NPM', 'Jest', 'RSpec', 'Firebase', 'PGAdmin', 'Postman', 'Visily', 'Canva', 'Slack', 'Trello'],
-    platforms: ['Salesforce (in progress)'],
-  };
+    platforms: ['Salesforce (in progress)']
+  }
 
-  const futureGoal = 'To drive innovation in AI, robotics, and IT Automation';
+  const introduction = 'Exploring Salesforce Development, eager for collaborative projects that push boundaries and open new horizons'
 
-  const Technologies = ({ technologies }) => (
+  const futureGoal = 'To drive innovation in AI, robotics, and IT Automation'
+
+  const Technologies = () => (
     <>
       {Object.entries(technologies).map(([category, items]) => (
         <p key={category}><strong>{category.charAt(0).toUpperCase() + category.slice(1)}:</strong> {items.join(', ')}</p>
       ))}
     </>
-  );
+  )
 
   const FunFact = () => (
-    <p>Fun fact: When I’m not immersed in coding, I’m weaving tales of imagination — my debut sci-fi romance novel is on the horizon!</p>
-  );
+    <p>As a storyteller at heart, I'm working on my debut sci-fi romance novel.</p>
+  )
 
   return (
     <div>
-      <h1>Hi, I'm Jeremie Joseph</h1>
-      <p><strong>Software Engineer</strong></p>
-      <p>As a full-stack developer with a flair for solving complex problems, I'm diving deep into Salesforce Development. I'm keen on collaborating on transformative projects and exploring new opportunities.</p>
+      <p>{introduction}</p>
       <h3>Expertise:</h3>
-      <Technologies technologies={technologies} />
+      <Technologies />
       <h3>Currently:</h3>
       <p>Full-Stack Developer at LEARN Academy</p>
       <h3>Aspiration:</h3>
       <p>{futureGoal}</p>
       <FunFact />
     </div>
-  );
-};
+  )
+}
 
-export default AboutMe;
+export default SoftwareEngineer
 ```
+
+<h3 align="left">Let's Connect:</h3>
+<p align="left">
+  <a href="https://linkedin.com/in/jeremiejoseph" target="_blank">
+    <img src="https://img.shields.io/badge/-Jeremie%20Joseph-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://linkedin.com/in/jeremiejoseph" alt="LinkedIn Badge">
+  </a>
+</p>
