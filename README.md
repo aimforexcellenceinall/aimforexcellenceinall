@@ -6,62 +6,68 @@
 <h3 align="center">react | rails | learning Salesforce development</h3>
 
 ```
-import React from 'react'
+import React from "react"
 
 const AboutMe = () => {
   const technologies = {
     frontend: [
-      'HTML5',
-      'CSS3',
-      'TailwindCSS',
-      'JavaScript',
-      'React.js',
-      'Reactstrap',
-      'Bootstrap',
+      "HTML5",
+      "CSS3",
+      "TailwindCSS",
+      "JavaScript",
+      "React.js",
+      "Reactstrap",
+      "Bootstrap",
     ],
-    backend: ['Ruby', 'Ruby on Rails'],
-    databases: ['PostgreSQL', 'Firebase', 'PGAdmin'],
-    versionControl: ['Git', 'GitHub'],
-    packageManagers: ['Yarn', 'NPM'],
-    testing: ['Jest', 'RSpec'],
-    api: ['Postman'],
-    design: ['Visily', 'Canva'],
-    projectManagement: ['Slack', 'Trello'],
-    deployment: ['Netlify'],
-    services: ['EmailJS'],
-    platforms: ['Salesforce (in progress)'],
+    backend: ["Ruby", "Ruby on Rails"],
+    databases: ["PostgreSQL", "Firebase", "PGAdmin"],
+    versionControl: ["Git", "GitHub"],
+    packageManagers: ["Yarn", "NPM"],
+    testing: ["Jest", "RSpec"],
+    api: ["Postman"],
+    design: ["Visily", "Canva"],
+    projectManagement: ["Slack", "Trello"],
+    deployment: ["Netlify"],
+    services: ["EmailJS"],
+    platforms: ["Salesforce (in progress)"],
   }
 }
 
-  const introduction = 'Pursuing Salesforce Development, eager for transformative collaborations and new frontiers'
+const introduction =
+  "Pursuing Salesforce Development, eager for transformative collaborations and new frontiers"
 
-  const futureGoal = 'To advance AI, robotics, and automation for meaningful societal impact'
+const futureGoal =
+  "To advance AI, robotics, and automation for meaningful societal impact"
 
-  const renderTechnologies = () => (
-    <>
-      {Object.entries(technologies).map(([category, items]) => (
-        <p key={category}><strong>{category.charAt(0).toUpperCase() + category.slice(1)}:</strong> {items.join(', ')}</p>
-      ))}
-    </>
-  )
+const renderTechnologies = () => (
+  <>
+    {Object.entries(technologies).map(([category, items]) => (
+      <p key={category}>
+        <strong>{category.charAt(0).toUpperCase() + category.slice(1)}:</strong>{" "}
+        {items.join(", ")}
+      </p>
+    ))}
+  </>
+)
 
-  const funFact = () => (
-    <p>As a storyteller at heart, I'm working on my debut sci-fi romance novel.</p>
-  )
+const funFact = () => (
+  <p>
+    As a storyteller at heart, I'm working on my debut sci-fi romance novel.
+  </p>
+)
 
-  return (
-    <div>
-      <p>{introduction}</p>
-      <h3>Expertise:</h3>
-      {renderTechnologies()}
-      <h3>Currently:</h3>
-      <p>Full-Stack Developer at LEARN Academy</p>
-      <h3>Aspiration:</h3>
-      <p>{futureGoal}</p>
-      {funFact()}
-    </div>
-  )
-}
+return (
+  <div>
+    <p>{introduction}</p>
+    <h3>Expertise:</h3>
+    {renderTechnologies()}
+    <h3>Currently:</h3>
+    <p>Full-Stack Developer at LEARN Academy</p>
+    <h3>Aspiration:</h3>
+    <p>{futureGoal}</p>
+    {funFact()}
+  </div>
+)
 
 export default AboutMe
 ```
