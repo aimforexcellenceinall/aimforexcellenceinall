@@ -3,7 +3,7 @@
 </h1>
 
 <h1 align="center">A software engineer</h1>
-<h3 align="center">react | rails | learning Salesforce</h3>
+<h3 align="center">react | rails | learning Salesforce development</h3>
 
 ```
 import React from 'react'
