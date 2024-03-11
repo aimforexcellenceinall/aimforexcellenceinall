@@ -27,7 +27,7 @@ const AboutMe = () => {
     api: ["Postman"],
     design: ["Visily", "Canva"],
     projectManagement: ["Slack", "Trello"],
-    deployment: ["Netlify", "Render"],
+    deployment: ["Netlify", "Render", "GitHub Pages"],
     services: ["EmailJS"],
     platforms: ["Salesforce (in progress)"],
   }
