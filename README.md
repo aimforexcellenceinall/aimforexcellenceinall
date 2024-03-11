@@ -15,7 +15,7 @@ const AboutMe = () => {
       'CSS3',
       'TailwindCSS',
       'JavaScript',
-      'React',
+      'React.js',
       'Reactstrap',
       'Bootstrap',
     ],
