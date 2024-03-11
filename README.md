@@ -13,14 +13,14 @@ const SoftwareEngineer = () => {
     backend: ['Ruby', 'Ruby on Rails'],
     databases: ['PostgreSQL'],
     tools: ['Git', 'GitHub', 'Yarn', 'NPM', 'Jest', 'RSpec', 'Firebase', 'PGAdmin', 'Postman', 'Visily', 'Canva', 'Slack', 'Trello'],
-    platforms: ['Salesforce (in progress)']
+    platforms: ['Salesforce (in progress)'],
   }
 
-  const introduction = 'Exploring Salesforce Development, eager for collaborative projects that push boundaries and open new horizons'
+  const introduction = 'Pursuing Salesforce Development, eager for transformative collaborations and new frontiers'
 
-  const futureGoal = 'To drive innovation in AI, robotics, and IT Automation'
+  const futureGoal = 'To advance AI, robotics, and automation for meaningful societal impact'
 
-  const Technologies = () => (
+  const renderTechnologies = () => (
     <>
       {Object.entries(technologies).map(([category, items]) => (
         <p key={category}><strong>{category.charAt(0).toUpperCase() + category.slice(1)}:</strong> {items.join(', ')}</p>
@@ -28,7 +28,7 @@ const SoftwareEngineer = () => {
     </>
   )
 
-  const FunFact = () => (
+  const funFact = () => (
     <p>As a storyteller at heart, I'm working on my debut sci-fi romance novel.</p>
   )
 
@@ -36,12 +36,12 @@ const SoftwareEngineer = () => {
     <div>
       <p>{introduction}</p>
       <h3>Expertise:</h3>
-      <Technologies />
+      {renderTechnologies()}
       <h3>Currently:</h3>
       <p>Full-Stack Developer at LEARN Academy</p>
       <h3>Aspiration:</h3>
       <p>{futureGoal}</p>
-      <FunFact />
+      {funFact()}
     </div>
   )
 }
